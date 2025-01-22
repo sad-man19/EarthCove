@@ -17,9 +17,10 @@ namespace EarthCove
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             //Application.Run(new Form1());
-            Application.Run(new AddHotel());
+            //Application.Run(new AddHotel());
             //Application.Run(new AddTransport());
             //Application.Run(new AddTour());
+            Application.Run(new HomePage());
 
         }
     }

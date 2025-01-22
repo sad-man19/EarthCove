@@ -41,9 +41,7 @@ namespace EarthCove
             this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
             this.textBox6 = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
-            this.textBox5 = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
-            this.textBox4 = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
@@ -149,23 +147,24 @@ namespace EarthCove
             // 
             // comboBox1
             // 
+            this.comboBox1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.comboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBox1.Font = new System.Drawing.Font("Century Gothic", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.comboBox1.FormattingEnabled = true;
             this.comboBox1.Items.AddRange(new object[] {
             "Bus",
             "Flight"});
-            this.comboBox1.Location = new System.Drawing.Point(676, 364);
+            this.comboBox1.Location = new System.Drawing.Point(368, 363);
             this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(234, 29);
+            this.comboBox1.Size = new System.Drawing.Size(274, 29);
             this.comboBox1.TabIndex = 36;
-            this.comboBox1.Text = "Select Transport Type";
             // 
             // numericUpDown1
             // 
             this.numericUpDown1.Font = new System.Drawing.Font("Century Gothic", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.numericUpDown1.Location = new System.Drawing.Point(677, 304);
+            this.numericUpDown1.Location = new System.Drawing.Point(369, 307);
             this.numericUpDown1.Name = "numericUpDown1";
-            this.numericUpDown1.Size = new System.Drawing.Size(233, 30);
+            this.numericUpDown1.Size = new System.Drawing.Size(273, 30);
             this.numericUpDown1.TabIndex = 35;
             // 
             // textBox6
@@ -187,14 +186,6 @@ namespace EarthCove
             this.label6.TabIndex = 33;
             this.label6.Text = "Departure:";
             // 
-            // textBox5
-            // 
-            this.textBox5.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox5.Location = new System.Drawing.Point(369, 361);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(273, 32);
-            this.textBox5.TabIndex = 32;
-            // 
             // label5
             // 
             this.label5.AutoSize = true;
@@ -205,14 +196,6 @@ namespace EarthCove
             this.label5.Size = new System.Drawing.Size(155, 23);
             this.label5.TabIndex = 31;
             this.label5.Text = "Transport Type:";
-            // 
-            // textBox4
-            // 
-            this.textBox4.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox4.Location = new System.Drawing.Point(369, 304);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(273, 32);
-            this.textBox4.TabIndex = 30;
             // 
             // label4
             // 
@@ -320,9 +303,7 @@ namespace EarthCove
             this.Controls.Add(this.numericUpDown1);
             this.Controls.Add(this.textBox6);
             this.Controls.Add(this.label6);
-            this.Controls.Add(this.textBox5);
             this.Controls.Add(this.label5);
-            this.Controls.Add(this.textBox4);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.textBox3);
             this.Controls.Add(this.label3);
@@ -361,9 +342,7 @@ namespace EarthCove
         private System.Windows.Forms.NumericUpDown numericUpDown1;
         private System.Windows.Forms.TextBox textBox6;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.TextBox textBox5;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.TextBox textBox4;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.TextBox textBox3;
         private System.Windows.Forms.Label label3;

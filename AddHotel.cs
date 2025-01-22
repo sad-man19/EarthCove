@@ -32,5 +32,69 @@ namespace EarthCove
                 }
             }
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            using (OpenFileDialog ofd = new OpenFileDialog() { Filter = "Image Files(*.jpg; *.jpeg; *.gif; *.bmp; *.png)|*.jpg; *.jpeg; *.gif; *.bmp; *.png" })
+            {
+                if (ofd.ShowDialog() == DialogResult.OK)
+                {
+                    pictureBox2.Image = new Bitmap(ofd.FileName);
+                }
+            }
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            using (OpenFileDialog ofd = new OpenFileDialog() { Filter = "Image Files(*.jpg; *.jpeg; *.gif; *.bmp; *.png)|*.jpg; *.jpeg; *.gif; *.bmp; *.png" })
+            {
+                if (ofd.ShowDialog() == DialogResult.OK)
+                {
+                    pictureBox3.Image = new Bitmap(ofd.FileName);
+                }
+            }
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            using (OpenFileDialog ofd = new OpenFileDialog() { Filter = "Image Files(*.jpg; *.jpeg; *.gif; *.bmp; *.png)|*.jpg; *.jpeg; *.gif; *.bmp; *.png" })
+            {
+                if (ofd.ShowDialog() == DialogResult.OK)
+                {
+                    pictureBox4.Image = new Bitmap(ofd.FileName);
+                }
+            }
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            using (OpenFileDialog ofd = new OpenFileDialog() { Filter = "Image Files(*.jpg; *.jpeg; *.gif; *.bmp; *.png)|*.jpg; *.jpeg; *.gif; *.bmp; *.png" })
+            {
+                if (ofd.ShowDialog() == DialogResult.OK)
+                {
+                    pictureBox5.Image = new Bitmap(ofd.FileName);
+                }
+            }
+        }
+
+        
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            using (OpenFileDialog ofd = new OpenFileDialog() { Filter = "Image Files(*.jpg; *.jpeg; *.gif; *.bmp; *.png)|*.jpg; *.jpeg; *.gif; *.bmp; *.png" })
+            {
+                if (ofd.ShowDialog() == DialogResult.OK)
+                {
+                    pictureBox7.Image = new Bitmap(ofd.FileName);
+                }
+            }
+        }
+
+        private void pictureBox6_Click(object sender, EventArgs e)
+        {
+            AddTour a1 = new AddTour();
+            a1.Show();
+            this.Hide();
+        }
     }
 }
