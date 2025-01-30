@@ -20,7 +20,8 @@ namespace EarthCove
             //Application.Run(new AddHotel());
             //Application.Run(new AddTransport());
             //Application.Run(new AddTour());
-            Application.Run(new HomePage());
+            //Application.Run(new HomePage());
+            Application.Run(new Admin());
 
         }
     }
